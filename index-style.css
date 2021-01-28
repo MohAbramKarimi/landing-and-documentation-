@@ -91,8 +91,9 @@ body{
 }
 
 #info-section{
-	border: 1px solid black;
-	width: 70%;
+/*	border: 1px solid black;
+*/	width: 70%;
+	height: 450px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -102,3 +103,39 @@ body{
 
 }
 
+#video-div{
+	/*border: 1px solid gray;*/
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 40px;
+	top: 10px;
+	width: 70%;
+	height: 450px;
+	padding: 50px 10px 30px 10px;
+}
+
+#video{
+	width: 700px;
+	height: 420px;
+	border-radius: 10px;
+}
+
+#pricing-part{
+	border: 1px solid gray;
+	width: 70%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	padding: 20px;
+}
+
+#card1, #card2, #card3{
+	border: 1px solid black;
+	display: block;
+	width: 350px;
+	height: 90%;
+	margin: 10px 50px 10px 50px;
+}
