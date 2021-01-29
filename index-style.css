@@ -91,16 +91,18 @@ body{
 }
 
 #info-section{
-/*	border: 1px solid black;
-*/	width: 70%;
+/*	border: 1px solid black;*/	
+	width: 70%;
 	height: 450px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: auto;
+	margin-left: 350px;
+	margin-right: 250px;
 	padding: 15px 10px 15px 10px;
-
-
+}
+.info-t{
+	font-size: x-large;
 }
 
 #video-div{
@@ -154,6 +156,19 @@ button{
 }
 .price{
 	font-size: x-large;
+	font-weight: bold;
+}
+footer{
+	border: 1px solid gray;
+	width: 70%;
+	margin: 0px 225px;
+	background-color: gray;
+	text-align: right;
+}
+.footer_link{
+	text-decoration: none;
+	margin: 10px 10px;
+	color: black;
 	font-weight: bold;
 }
 
