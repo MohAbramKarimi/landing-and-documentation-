@@ -71,11 +71,7 @@ span{
 	margin:auto; 
 
 }
-#info-div1 #info-div2 #info-div3{
-	display: flex;
-	flex-direction: row;
-	float: left;
-}
+
 
 #subs-paragraph{
 	font-family: sans-serif;
@@ -98,7 +94,7 @@ span{
 	width: 150px;
 	height: 30px;
 	margin-top: 15px;
-	background-color: orange;
+	background-color: darkorange;
 	font-weight: bold;
 	border-color: orange;
 
@@ -111,13 +107,45 @@ span{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 350px;
-	margin-right: 250px;
-	padding: 15px 10px 15px 10px;
+	margin: auto;
+	padding: 15px 10px 15px 40px;
+}
+
+#info-div1 #info-div2 #info-div3{
+	display: flex;
+	flex-direction: row;
+
 }
 .info-t{
 	font-size: x-large;
 }
+
+.info-icon{
+	/*border: 1px solid gray;*/
+	color: darkorange;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 110px;
+	height: 110px;
+	margin: 0px 10px 0px 5px;
+}
+
+.fa-heart, .fa-truck, .fa-thumbs-up{
+	display: block;
+	font-size: 4rem;
+}
+
+.info-disc{
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	
+
+}
+
+
 
 #video-div{
 	/*border: 1px solid gray;*/
