@@ -296,7 +296,7 @@ span{
 }
 
 #subs-container{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -307,15 +307,14 @@ span{
 
 }
 #info-section{
-		/* border: 1px solid black;	 */
+	/*	border: 1px solid black;	*/ 
 		width: 80%;
-		height: 550px;
-	
+		height: 450px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		margin: auto;
-		padding: 15px 10px 15px 40px;
+		padding: 10px 10px 10px 20px;
 	}
 	
 	#info-div1 #info-div2 #info-div3{
@@ -350,32 +349,98 @@ span{
 	}
 	
 	.info-disc{
-		/* border: 1px solid gray; */
-		display: inline-block;
+		/* border: 1px solid gray; 
+*/		display: inline-block;
 		width: 85%;
 		
 	
 	}
 
 	#video-div{
-		/*border: 1px solid gray;*/
+	/*	border: 1px solid gray;*/
 		display: flex;
 		justify-content: center;
 		margin: auto;
-		margin-top: 40px;
+		margin-top: 10px;
+		margin-bottom: 20px;
 		top: 10px;
 		width: 70%;
-		height: 450px;
-		padding: 50px 10px 30px 10px;
+		height: 380px;
+		padding: 10px 10px 10px 10px;
 		
 	}
 	
 	#video{
-		width: 560px;
+		width: 550px;
 		height: 380px;
 		border-radius: 10px;
 		z-index: -1;
 	}
+
+	#pricing-part{
+	/*border: 1px solid black;*/
+	width: 70%;
+	height: 980px;
+	display: block;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#card1, #card2, #card3{
+	border: 1px solid black;
+	display: block;
+	width: 280px;
+	height: 30%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+button{
+	border: 1px solid hsl(64, 91%, 55%) ;
+	width: 90px;
+	height: 40px;
+	background-color:hsl(64, 91%, 55%);
+	font-size: large;
+}
+.price-title{
+	background-color: #b0b0b0;
+	margin-top: 0px;
+	height: 40px;
+	text-align: center;
+	padding-top: 5px;
+}
+.price{
+	font-size: x-large;
+	font-weight: bold;
+}
+
+ footer{
+	border: 1px solid #b0b0b0;
+	bottom: 0;
+	width: 70%;
+	margin: auto;
+	bottom: 0px;
+	background-color: #b0b0b0;
+	text-align: right;
+	padding: 10px;
+}
+.footer_link{
+	text-decoration: none;
+	font-size: 1.2rem;
+	margin: 10px 10px;
+	color: black;
+	font-weight: bold;
+}
+
+#copy-p{
+	margin: 15px 10px 10px 10px;
+}
+
+
 		
 
 }
